@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Override Studio",
+  "version": "0.1.0",
+  "description": "Override selected APIs during development. No changes required in the target application.",
+  "action": {
+    "default_title": "Override Studio",
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "permissions": ["storage"]
+}
